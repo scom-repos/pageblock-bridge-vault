@@ -1,0 +1,1 @@
+export { PanelConfig } from './panel-config';

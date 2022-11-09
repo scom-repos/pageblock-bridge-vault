@@ -1,0 +1,7 @@
+<svg id="Swap_Icon" data-name="Swap Icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_21" data-name="Rectangle 21" width="32" height="32" fill="rgba(255,255,255,0)"/>
+  <g id="Solid" transform="translate(5 7)">
+    <path id="Path_64" data-name="Path 64" d="M25.106,69.9H41.6l-1.8,1.8a1.106,1.106,0,1,0,1.564,1.564l3.686-3.686a1.106,1.106,0,0,0,0-1.564l-3.686-3.686A1.106,1.106,0,0,0,39.8,65.887l1.8,1.8h-16.5a1.106,1.106,0,1,0,0,2.211Z" transform="translate(-24 -63.999)" fill="#ff5e61"/>
+    <path id="Path_65" data-name="Path 65" d="M44.27,243.685h-16.5l1.8-1.8a1.106,1.106,0,0,0-1.564-1.564l-3.686,3.686a1.106,1.106,0,0,0,0,1.564l3.686,3.686a1.106,1.106,0,0,0,1.564-1.564l-1.8-1.8h16.5a1.106,1.106,0,1,0,0-2.211Z" transform="translate(-23.999 -231.891)" fill="#ff5e61"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./assets/img/favicon.ico">
+  <title>Staking</title>
+  <meta property="og:type" content="website">
+  <script src="/dist/launcher.js"></script>
+  <style>
+    body {
+      --background-default: #0c1234;
+      overflow: auto !important;
+    }
+  </style>
+</head>
+<html>
+
+<body>
+  <script>
+    async function init() {
+      let module = await application.newModule('./staking/index.js', {{scconfig}})
+      document.body.append(module)
+    };
+    init();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",        
+        "experimentalDecorators": true,
+        "moduleResolution": "Node",
+        "jsx": "preserve",      
+        "jsxFactory": "this.$render",
+        "jsxFragmentFactory": "this.$render",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": false,
+        "declaration": true        
+    }
+}

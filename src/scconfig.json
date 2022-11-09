@@ -1,0 +1,28 @@
+{
+  "name": "@staking/main",
+  "version": "0.1.0",
+  "main": "{root}/staking/index.js",
+  "env": "mainnet",
+  "routes": [
+    {
+      "url": "#/staking",
+      "default": true,
+      "module": "./staking/index.js"
+    }
+  ],
+  "menuItems": [
+    {
+      "to": "#/staking",
+      "text": "Staking",
+      "img": "{root}/assets/img/menu/Swap-Icon.svg"
+    }
+  ],
+  "dependencies": {
+    "@ijstech/eth-wallet-web3modal": "{LIB}/lib/eth-wallet-web3modal/index.js",
+    "@staking/sdks": "{root}/sdks/index.js",
+    "@staking/assets": "{root}/assets/index.js",
+    "@staking/global": "{root}/global/index.js",
+    "@staking/store": "{root}/store/index.js",
+    "@staking/staking-utils": "{root}/staking-utils/index.js"
+  }
+}
